@@ -182,7 +182,7 @@ public class AccountServiceImpl implements IAccountService {
             source.setMoney(source.getMoney()-money);
             target.setMoney(target.getMoney()+money);
             accountDao.updateAccount(source);
-            int i = 1/0;
+//            int i = 1/0;
             accountDao.updateAccount(target);
             tm.commit();
         } catch (Exception e){
