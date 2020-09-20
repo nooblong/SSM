@@ -11,6 +11,10 @@
     <modules>
         <module>annotation</module>
         <module>spring</module>
+        <module>day3</module>
+        <module>day05</module>
+        <module>day5</module>
+        <module>day05</module>
     </modules>
 
     <dependencies>

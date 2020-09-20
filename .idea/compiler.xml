@@ -8,7 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="annotation" />
         <module name="spring" />
+        <module name="day3" />
+        <module name="day05" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day5" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
