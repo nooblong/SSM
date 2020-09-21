@@ -9,11 +9,10 @@
         <module name="annotation" />
         <module name="spring" />
         <module name="day3" />
+        <module name="mvc" />
         <module name="day05" />
+        <module name="day4" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="day5" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
