@@ -20,5 +20,14 @@
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-    <mvc:annotation-driven/>
+
+    <mvc:annotation-driven conversion-service="myConversionService"/>
+
+    <bean id="myConversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters" >
+            <set>
+                <bean class="github.nooblong.util.StringToDateConverter"/>
+            </set>
+        </property>
+    </bean>
 </beans>
