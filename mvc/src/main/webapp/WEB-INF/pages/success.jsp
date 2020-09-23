@@ -12,6 +12,9 @@
 </head>
 <body>
     success
+    <br>
+    ${user.name}
+    <br>
     ${sessionScope}
     <br>
     ${requestScope}

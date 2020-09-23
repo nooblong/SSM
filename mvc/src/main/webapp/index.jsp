@@ -1,5 +1,6 @@
 <%@page pageEncoding="UTF-8" language="java" isELIgnored="false" %>
 <html>
+<script src="js/jquery-3.5.1.js"></script>
 <body>
 <h2>Hello World!</h2>
 <a href="WEB-INF/pages/success.jsp">hello</a>
@@ -38,9 +39,44 @@
     <button type="submit">submit</button>
 </form>
 <br>
+<button id="btn">ajax</button>
+<br>
+<label id="success">
+    return:
+</label>
+<br>
+<hr>
+
+<form action="upload" method="post" enctype="multipart/form-data">
+    选择文件: <input type="file" name="upload" /> <br>
+    <input type="submit" value="upload">
+</form>
+<hr>
+<form action="upload2" method="post" enctype="multipart/form-data">
+    选择文件2: <input type="file" name="upload" /> <br>
+    <input type="submit" value="upload">
+</form>
+<br>
 ${requestScope}
 </body>
+
 <script>
+    
+    $(function (){
+        $("#btn").click(function () {
+            $.ajax({
+                url:"testAjax",
+                contentType:"application/json;charset=UTF-8",
+                data:'{"name":"hehe", "age":"30"}',
+                dataType:"json",
+                type:"post",
+                success:function (data) {
+                    $("#success").append(data.name + " ").append(data.age + " ").append(data.date)
+                }
+            })
+        })
+    })
+    
     function geiId(){
         let form = document.getElementById("form");
         let s = form.attributes["action"].value
