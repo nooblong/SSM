@@ -1,0 +1,8 @@
+/.idea/
+/annotation/target/
+/day3/target/
+/day4/target/
+/day05/target/
+/mvc/target/
+/spring/target
+mvc/src/main/webapp/js/jquery-3.5.1.js
