@@ -1,7 +1,7 @@
 package nooblong.github.dao;
 
 
-import nooblong.github.domain.Account;
+import github.nooblong.domain.Account;
 
 /**
  * 账户的持久层接口

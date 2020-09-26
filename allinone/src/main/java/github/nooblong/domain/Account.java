@@ -1,15 +1,20 @@
-package nooblong.github.domain;
+package github.nooblong.domain;
 
 import java.io.Serializable;
 
-/**
- * 账户的实体类
- */
 public class Account implements Serializable {
-
     private Integer id;
     private String name;
-    private Float money;
+    private Double money;
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", money=" + money +
+                '}';
+    }
 
     public Integer getId() {
         return id;
@@ -27,20 +32,11 @@ public class Account implements Serializable {
         this.name = name;
     }
 
-    public Float getMoney() {
+    public Double getMoney() {
         return money;
     }
 
-    public void setMoney(Float money) {
+    public void setMoney(Double money) {
         this.money = money;
-    }
-
-    @Override
-    public String toString() {
-        return "Account{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", money=" + money +
-                '}';
     }
 }

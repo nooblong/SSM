@@ -7,12 +7,12 @@
 
 <form action="user" method="post">
     <label>
-    name:<input type="text" name="name">
-    list[0].name<input type="text" name="list[0].name">
-    list[0].age<input type="text" name="list[0].age">
-    map['one'].name<input type="text" name="map['one'].name">
-    map['one'].age<input type="text" name="map['one'].age">
-    date<input type="text" name="date">
+        name:<input type="text" name="name">
+        list[0].name<input type="text" name="list[0].name">
+        list[0].age<input type="text" name="list[0].age">
+        map['one'].name<input type="text" name="map['one'].name">
+        map['one'].age<input type="text" name="map['one'].age">
+        date<input type="text" name="date">
     </label>
     <button type="submit">submit</button>
 </form>
@@ -48,36 +48,45 @@
 <hr>
 
 <form action="upload" method="post" enctype="multipart/form-data">
-    选择文件: <input type="file" name="upload" /> <br>
+    选择文件: <input type="file" name="upload"/> <br>
     <input type="submit" value="upload">
 </form>
 <hr>
 <form action="upload2" method="post" enctype="multipart/form-data">
-    选择文件2: <input type="file" name="upload" /> <br>
+    选择文件2: <input type="file" name="upload"/> <br>
     <input type="submit" value="upload">
 </form>
 <br>
+<hr>
+
+<a href="exception">
+    <button>
+        测试异常
+    </button>
+</a>
+<hr>
+
 ${requestScope}
 </body>
 
 <script>
-    
-    $(function (){
+
+    $(function () {
         $("#btn").click(function () {
             $.ajax({
-                url:"testAjax",
-                contentType:"application/json;charset=UTF-8",
-                data:'{"name":"hehe", "age":"30"}',
-                dataType:"json",
-                type:"post",
-                success:function (data) {
+                url: "testAjax",
+                contentType: "application/json;charset=UTF-8",
+                data: '{"name":"hehe", "age":"30"}',
+                dataType: "json",
+                type: "post",
+                success: function (data) {
                     $("#success").append(data.name + " ").append(data.age + " ").append(data.date)
                 }
             })
         })
     })
-    
-    function geiId(){
+
+    function geiId() {
         let form = document.getElementById("form");
         let s = form.attributes["action"].value
         let n = s + "/" + document.getElementById("id").value

@@ -1,6 +1,6 @@
 package nooblong.github.service;
 
-import nooblong.github.domain.Account;
+import github.nooblong.domain.Account;
 
 public interface IAccountService {
 

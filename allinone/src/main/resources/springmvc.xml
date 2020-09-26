@@ -14,28 +14,32 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd
 ">
 
-    <context:component-scan base-package="github.nooblong"/>
-<!--    视图解析器-->
+    <context:component-scan base-package="github.nooblong">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
     <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <mvc:annotation-driven conversion-service="myConversionService"/>
+    <mvc:annotation-driven/>
 
-    <bean id="myConversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
-        <property name="converters" >
-            <set>
-                <bean class="github.nooblong.util.StringToDateConverter"/>
-            </set>
-        </property>
-    </bean>
+<!--    <mvc:annotation-driven conversion-service="myConversionService"/>-->
 
-    <bean id="sysExceptionResolver" class="github.nooblong.exception.SysExceptionResolver"/>
+<!--    <bean id="myConversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+<!--        <property name="converters" >-->
+<!--            <set>-->
+<!--                <bean class="github.nooblong.util.StringToDateConverter"/>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--    </bean>-->
 
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="104857600"/>
-    </bean>
+<!--    <bean id="sysExceptionResolver" class="github.nooblong.exception.SysExceptionResolver"/>-->
+
+<!--    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+<!--        <property name="maxUploadSize" value="104857600"/>-->
+<!--    </bean>-->
     
     <mvc:resources mapping="/js/**" location="/js/"/>
     <mvc:resources mapping="/css/**" location="/css/"/>

@@ -1,6 +1,7 @@
 package github.nooblong;
 
 import github.nooblong.domain.User;
+import github.nooblong.exception.SysException;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -15,6 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -130,6 +132,17 @@ public class HelloController {
         String originalFilename = upload.getOriginalFilename();
         if (originalFilename != null) {
             upload.transferTo(new File(path,originalFilename));
+        }
+        return "success";
+    }
+
+    @RequestMapping("exception")
+    public String testException() throws Exception{
+        try {
+            int a = 1/0;
+        } catch (Exception e){
+            e.printStackTrace();
+            throw new SysException(e.getMessage());
         }
         return "success";
     }

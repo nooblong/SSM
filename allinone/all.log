@@ -1,0 +1,402 @@
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:596) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34340fab
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.context.annotation.ClassPathBeanDefinitionScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [C:\Users\lyl\Documents\GitHub\SSM\allinone\target\classes\github\nooblong\service\impl\AccountServiceImpl.class]
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) ]
+DEBUG:Loaded 6 bean definitions from class path resource [applicationContext.xml]
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-09-26 23:59:42 下午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'accountService'
+2020-09-27 00:18:10 上午 [Thread: main][ Class:org.springframework.context.support.ClassPathXmlApplicationContext >> Method: org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:596) ]
+DEBUG:Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34340fab
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.context.annotation.ClassPathBeanDefinitionScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [C:\Users\lyl\Documents\GitHub\SSM\allinone\target\classes\github\nooblong\controller\AccountController.class]
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.context.annotation.ClassPathBeanDefinitionScanner >> Method: org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) ]
+DEBUG:Identified candidate component class: file [C:\Users\lyl\Documents\GitHub\SSM\allinone\target\classes\github\nooblong\service\impl\AccountServiceImpl.class]
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.xml.XmlBeanDefinitionReader >> Method: org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:393) ]
+DEBUG:Loaded 7 bean definitions from class path resource [applicationContext.xml]
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'accountController'
+2020-09-27 00:18:11 上午 [Thread: main][ Class:org.springframework.beans.factory.support.DefaultListableBeanFactory >> Method: org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225) ]
+DEBUG:Creating shared instance of singleton bean 'accountService'
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 @
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.domain.Account matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1800031768.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b4a4e18]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from ssm 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 0
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 @
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.domain.Account matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1800031768.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b4a4e18]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from ssm 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 1
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/domain/Account.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 @
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.domain.Account matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1800031768.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b4a4e18]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from ssm 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 1
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b4a4e18]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b4a4e18]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 1800031768 to pool.
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1344199921.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from ssm 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 1
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 1344199921 to pool.
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 1344199921.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: select * from ssm 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==      Total: 1
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@501edcf1]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 1344199921 to pool.
+[Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:335) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+[Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:109) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:70) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+[Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getInstance(VFS.java:84) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/C:/Users/lyl/Documents/GitHub/SSM/allinone/target/classes/github/nooblong/dao/AccountDao.class
+[Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature 4()Ljava/util/List<Lgithub/nooblong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from ssm saveAccount #(Lgithub/nooblong/domain/Account;)V &Lorg/apache/ibatis/annotations/Insert; 7insert into ssm (name,money) values (#{name}, #{money}) 
+[Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class github.nooblong.dao.AccountDao matches criteria [is assignable to Object]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:406) ]
+DEBUG:Created connection 2124643775.
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7ea37dbf]
+[Thread: main][ Class:github.nooblong.dao.AccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==>  Preparing: insert into ssm (name,money) values (?, ?) 
+[Thread: main][ Class:github.nooblong.dao.AccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:==> Parameters: lihua(String), 100.0(Double)
+[Thread: main][ Class:github.nooblong.dao.AccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159) ]
+DEBUG:<==    Updates: 1
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:70) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7ea37dbf]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7ea37dbf]
+[Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7ea37dbf]
+[Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:363) ]
+DEBUG:Returned connection 2124643775 to pool.

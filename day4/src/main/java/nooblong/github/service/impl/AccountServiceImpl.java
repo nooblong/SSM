@@ -1,7 +1,7 @@
 package nooblong.github.service.impl;
 
 import nooblong.github.dao.IAccountDao;
-import nooblong.github.domain.Account;
+import github.nooblong.domain.Account;
 import nooblong.github.service.IAccountService;
 import org.springframework.transaction.annotation.Transactional;
 

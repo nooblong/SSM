@@ -2,7 +2,7 @@ package nooblong.github.dao.impl;
 
 
 import nooblong.github.dao.IAccountDao;
-import nooblong.github.domain.Account;
+import github.nooblong.domain.Account;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
